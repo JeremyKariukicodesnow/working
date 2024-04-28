@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section that has nav keys and title-->
+    <header>
+        <h1><a href="#about">⏬</a>Jeremy mwangi Kariuki</h1>
+        <h2 class="h2_1">Portfolio</h2>
+        <img src="path_to_your_image.jpg" alt="Image Description">
+        <nav aria-label="main" class="nav1">
+            <ul class="ul_1">
+                <li>
+                    <a href="#about">about me</a>
+                </li>
+                <li>
+                    <a href="#project">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--section that has info about me -->
+        <section id="about">
+            <h2 class="h2_2">Who am I????</h2>   
+            <section class="hero"> 
+                <div class="about_bd hero1">
+                    <h3>Childhood and Education</h3>
+                    <p class="p_edu">Raised in Kiambu County, Jeremy is a Kenyan citizen. He studied well through primary education and later managed to go to <span><a href="https://kagumo-high.vercel.app/">Kagumo High School</a></span> where he completed in 2024. He is currently waiting for placement in University where he hopes to pursue electrical engineering.</p>
+                </div> 
+                <div class="about_bd hero2">
+                    <h3>Hobbies</h3>
+                    <p>Jeremy loves cycling in his free time. He also loves watching many sci-fi thrillers.</p>
+                    <section class="img_flex"> <!--remember to flex so images are against each other-->  
+                        <img src="pexels-jahangeer-bm-759527-1619299.jpg" alt="cycling is fun">
+                        
+                        
+                    </section>
+                </div> 
+                <div class="about_bd hero3">
+                    <h3>Dreams</h3>
+                    <p>Jeremy aspires to become an electrical engineer and start a research company that will deal with hyper propulsion engines to make shipping by air a possibility.</p>
+                    <img src="pexels-pixabay-2159.jpg" alt="warpdrive">
+                </div> 
+            </section>
+        </section> 
+        <hr>
+        <section id="project">
+            <h2>Personal Projects</h2>
+            <section class="projects"> 
+                <div class="project_in">
+                    <h3>First Website</h3>
+                    <p>This was my first web creation. It was a <a href="https://github.com/JeremyKariukicodesnow/taco-store-with-css">Little Taco Store 🌮</a> website. Though it has some errors, it was a key landmark in my journey to create this website.</p>
+                </div> 
+                <div class="project_in">
+                    <h3>Shot at Tailwind</h3>
+                    <p>This is an example of a project created with tailwind which I find as an incredibly useful tool in web development. It is called <a href="https://github.com/JeremyKariukicodesnow/tailwind-br">Acme Rockets</a></p>
+                </div> 
+                <div class="project_in">
+                    <h3>Video Editing</h3>
+                    <p>I once took a shot at video editing as I was discovering my place in this fast-evolving tech world</p>
+                    <video controls width="600" height="400">
+                        <source src="WhatsApp Video 2024-04-28 at 15.33.49.webm" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+        </section>
+        <section id="contact" class="contact">
+            <h3>We want to hear from you>>></h3>
+            <form action="https://httpbin.org/get">
+                <fieldset >
+                    <legend>Personal Info</legend>
+                    <p>
+                        <label for="firstname">First name</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Johnte" required>
+                    </p>
+                    <p>
+                        <label for="lastname">last name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Kinyua" required>
+                    </p>
+                    <p>
+                        <label for="message" class="contact_mes">Write your message here</label>
+                        <textarea name="message" id="message" rows="10" cols="30" required></textarea>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="p_footer">
+            <a href="tel:+254712345678">contact me</a>
+            <br>
+            Nairobi,<br>
+            Moi Avenue,<br>
+            Ushiriki Towers
+        </p>
+        <nav>
+            <ol class="nav_ol">
+Å                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#project">projects</a>
+                </li>
+                <li>
+                    <a href="/">home</a>
+                </li>
+            </ol>
+        </nav>
+        <p class="copyright">
+            Copyright &copy; jmk
+        </p>
+    </footer>
+</body>
+</html>

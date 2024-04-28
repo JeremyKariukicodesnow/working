@@ -1,0 +1,163 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+/* variables */
+
+/* general styling for whole sheet */
+
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+    background-image: url(pexels-david-besh-884788.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    min-height: 100vh;
+    max-width: 850px;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(13, 227, 255);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 0;
+    background-color: darkslategray;
+}
+
+h1 {
+    font-size: large;
+    color: aqua;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.h2_1 {
+    color: aqua;
+}
+
+.nav1 {
+    background-color: darkslategray;
+    font-weight: bold;
+}
+
+.ul_1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.h2_2 {
+    color: beige;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.img_flex {
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid white;
+}
+
+.about_bd {
+    border: 1px solid palegoldenrod;
+}
+
+.hero1,
+.hero2,
+.hero3 {
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.p_edu {
+    font-size: large;
+}
+
+.projects {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.project_in {
+    border: 1px solid black;
+}
+
+a {
+    color: rgb(0, 255, 21);
+}
+
+a:hover,
+a:focus-visible {
+    color: rgba(0, 255, 21, 0.452);
+}
+
+a:active {
+    color: rgba(0, 255, 21, 0.452);
+}
+
+.footer {
+    background-color: darkslategray;
+}
+
+.contact {
+    margin: auto;
+    padding: 2rem;
+}
+
+.contact.mes {
+    padding: 0.5em;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 100%;
+}
+
+.p_footer {}
+
+.nav_ol {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+
